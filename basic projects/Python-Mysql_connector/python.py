@@ -8,7 +8,7 @@ database = "DBname"
 )
 
 
-cursor = con.cursor()
+cursor = mysqlconnector.cursor()
 
 query = cursor.execute["SELECT * FROM Dictionary"]
 results = cursor.fetchall()
