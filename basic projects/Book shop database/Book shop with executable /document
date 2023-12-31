@@ -1,0 +1,7 @@
+python tkinter app convert to executable file:
+
+-install pyinstaller: pip install pyinstaller
+
+-run :  pyinstaller filename.py 
+    
+      eg:pyinstaller frontend.py
